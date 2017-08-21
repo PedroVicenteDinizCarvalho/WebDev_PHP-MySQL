@@ -1,0 +1,168 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 128px;
+    background-color: Gray;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #0A66A5;
+    padding: 16px;
+    z-index: 9999;
+}
+
+header form
+{
+    display: inline;
+}
+
+header input
+{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+header input:focus
+{
+    border: 2px solid #555;
+}
+
+.button
+{
+    border: none;
+    color: white;
+    background-color: DarkBlue;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button:hover
+{
+    background-color: Blue;
+}
+
+.newPostForm
+{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana;
+    width: 70%;
+}
+
+.newPostForm input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.newPostForm textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+     border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.newPostForm input[type=button], .newPostForm input[type=submit], .newPostForm input[type=reset]
+{
+    background-color: DarkBlue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.post
+{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+    width: 70%;
+}
+
+.post .postTitle
+{
+    font-size: 28px;
+    border-bottom-width: 2px;
+}
+
+.post .notes
+{
+    font-size: 10px;
+}
+
+.post .deleteButton
+{
+    background-color: DarkBlue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 15%;
+}
+
+.searchBar
+{
+    width: 50%;
+}
+
+.signUpForm
+{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana;
+    width: 80%;
+}
+
+.signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.signUpForm input[type=button], .signUpForm input[type=submit], .signUpForm input[type=reset]
+{
+    background-color: DarkBlue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.text
+{
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 15px;
+}
